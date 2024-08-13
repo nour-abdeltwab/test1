@@ -9,8 +9,8 @@ class food_items extends StatelessWidget {
     return Row(
       children: [
         Container(
-          width: 50,
-          height: 50,
+          width: 40,
+          height: 40,
           decoration: BoxDecoration(
               color: Colors.black,
               borderRadius: BorderRadius.all(Radius.circular(50))),
