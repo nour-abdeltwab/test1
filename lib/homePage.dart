@@ -30,19 +30,6 @@ class _MyHomePageState extends State<MyHomePage> {
         },
       ),
 
-      // ListView.builder(
-      //   padding: EdgeInsets.all(15),
-      //   itemCount: items.length,
-      //   itemBuilder: (context, index) {
-      //     return Column(
-      //       children: [
-      //         food_items(foodNo: items[index]),
-      //         if (index < items.length - 1)
-      //           Divider(), // Avoids a divider after the last item
-      //       ],
-      //     );
-      //   },
-      // ),
       // ListView(
       //   padding: EdgeInsets.all(15),
       //   children: [
