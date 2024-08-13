@@ -11,17 +11,17 @@ class food_items extends StatelessWidget {
         Container(
           width: 40,
           height: 40,
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
               color: Colors.black,
               borderRadius: BorderRadius.all(Radius.circular(50))),
         ),
-        SizedBox(
+        const SizedBox(
           width: 15,
         ),
         Container(
           child: Text(
             foodNo,
-            style: TextStyle(fontSize: 25),
+            style: const TextStyle(fontSize: 25),
           ),
         ),
       ],

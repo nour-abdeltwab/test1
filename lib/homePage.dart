@@ -14,17 +14,17 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Catecgories'),
-        actions: [IconButton(onPressed: () {}, icon: Icon(Icons.refresh))],
+        title: const Text('Catecgories'),
+        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.refresh))],
       ),
       body: ListView.builder(
-        padding: EdgeInsets.all(15),
+        padding: const EdgeInsets.all(15),
         itemCount: items.length,
         itemBuilder: (context, index) {
           return Column(
             children: [
               food_items(foodNo: items[index]),
-              Divider(),
+              const Divider(),
               // if (index < items.length - 1) Divider(),
             ],
           );
